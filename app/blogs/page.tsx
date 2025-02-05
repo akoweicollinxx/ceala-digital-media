@@ -60,8 +60,8 @@ export default async function BlogsPage() {
           </article>
         ))}
       </div>
-      <Footer />
     </main>
+      <Footer />
     </div>
   );
 }
