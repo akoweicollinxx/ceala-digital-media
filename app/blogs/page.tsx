@@ -29,9 +29,8 @@ export default async function BlogsPage() {
 
   return (
     <div>
-       <ShowcaseNavbar />
+      <ShowcaseNavbar />
     <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-       
       <h1 className="text-4xl md:mx-auto pt-[130px] md:pt-[170px] font-bold mb-8 text-center">Our Blog</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {blogs.map(({ slug, frontmatter }) => (
@@ -63,6 +62,6 @@ export default async function BlogsPage() {
       </div>
       <Footer />
     </main>
-      </div>
+    </div>
   );
 }
