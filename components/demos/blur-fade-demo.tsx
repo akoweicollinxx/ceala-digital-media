@@ -54,7 +54,7 @@ const works: WorkItem[] = [
     imageUrl: "/images/pchau.webp",
     isVideo: false,
     title: "Perfect Chau Website",
-    link: "https://perfectchau.vercel.app/",
+    link: "https://perfectchau.com.ng/",
   },
 ];
 
