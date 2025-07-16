@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ceala | Design, Development & Marketing Studio",
+  title: "Software Developer Luton | Web Design, Development & Marketing Studio in Luton",
   description: "The best Design, Development and Marketing Agency in Luton, United Kingdom",
   openGraph: {
     images: [
