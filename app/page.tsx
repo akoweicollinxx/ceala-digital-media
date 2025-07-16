@@ -102,7 +102,7 @@ export default function Home() {
       md:text-xl
       hover:bg-[#abcbff] 
       rounded-[6px]
-      border-2 
+      border-4 
       border-black 
       dark:border-white 
        bg-[#121212] 
