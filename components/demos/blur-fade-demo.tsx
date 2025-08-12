@@ -46,8 +46,8 @@ const works: WorkItem[] = [
     background: "bg-gray-200",
     imageUrl: "/images/rebar.webp",
     isVideo: false,
-    title: "Rebar Lounge Website",
-    link: "https://rebarrestaurant.vercel.app/service.html",
+    title: "Swann Plumbing and Heating Website",
+    link: "https://swann-plumbing.vercel.app/",
   },
   {
     background: "bg-gray-200",
