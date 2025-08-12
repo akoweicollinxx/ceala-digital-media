@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
+import Script from "next/script";
 
 const font = Space_Grotesk({ subsets: ["latin"] });
 
@@ -31,7 +32,11 @@ export default function RootLayout({
       <body className={font.className}>
 
         {children}
-  <script type="text/javascript" strategy="afterInteractive" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/146719206.js"></script>
+      <Script
+          id="hs-script-loader"
+          strategy="afterInteractive"
+          src="//js-eu1.hs-scripts.com/146719206.js"
+        />
         <Analytics />
 
       </body>
