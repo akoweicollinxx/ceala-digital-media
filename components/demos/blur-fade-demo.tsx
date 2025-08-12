@@ -44,7 +44,7 @@ const works: WorkItem[] = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/rebar.webp",
+    imageUrl: "/images/swann.PNG",
     isVideo: false,
     title: "Swann Plumbing and Heating Website",
     link: "https://swann-plumbing.vercel.app/",
