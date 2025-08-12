@@ -31,7 +31,7 @@ export default function RootLayout({
       <body className={font.className}>
 
         {children}
-  <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/146719206.js"></script>
+  <script type="text/javascript" strategy="afterInteractive" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/146719206.js"></script>
         <Analytics />
 
       </body>
