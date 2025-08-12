@@ -6,7 +6,7 @@ import { Analytics } from "@vercel/analytics/react";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Software Developer Luton | Web Design, Development & Marketing Studio in Luton",
+  title: "Software Developer in Luton | Web Design, Development & Marketing Studio in Luton",
   description: "The best Design, Development and Marketing Agency in Luton, United Kingdom",
   openGraph: {
     images: [
@@ -27,6 +27,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+<!-- Start of HubSpot Embed Code -->
+<script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/146719206.js"></script>
+<!-- End of HubSpot Embed Code -->
       <body className={font.className}>
 
         {children}
