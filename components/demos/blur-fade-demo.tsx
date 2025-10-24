@@ -16,21 +16,21 @@ interface WorkItem {
 const works: WorkItem[] = [
     {
         background: "bg-gray-200",
-        imageUrl: "/images/inter.PNG",
+        imageUrl: "/images/inter.png",
         isVideo: false,
         title: "InterPrep AI Interview prep WebApp",
         link: "https://www.interprep.co.uk/",
     },
     {
         background: "bg-gray-200",
-        imageUrl: "/images/frilio.PNG",
+        imageUrl: "/images/frilio.png",
         isVideo: false,
         title: "Frilio AI Business Automation WebApp",
         link: "https://frilio.ai/",
     },
     {
         background: "bg-gray-200",
-        imageUrl: "/images/augy.PNG",
+        imageUrl: "/images/augy.png",
         isVideo: false,
         title: "Augy Beauty Limited Website",
         link: "https://augybeautyhome.co.uk/",
