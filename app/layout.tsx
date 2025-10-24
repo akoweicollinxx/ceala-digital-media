@@ -38,7 +38,7 @@ export default function RootLayout({
           src="//js-eu1.hs-scripts.com/146719206.js"
         />
         <Analytics />
-<elevenlabs-convai agent-id="agent_6101k897f6m6ew0849wthk3k8r4b"></elevenlabs-convai><script src="https://unpkg.com/@elevenlabs/convai-widget-embed" async type="text/javascript"></script>
+
       </body>
     </html>
   );
