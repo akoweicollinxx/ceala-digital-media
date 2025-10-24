@@ -14,7 +14,7 @@ const Header = () => {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="/logo/logo.webp"
+            src="/logo/logo.PNG"
             alt="Bird Logo"
             width={160}
             height={160}

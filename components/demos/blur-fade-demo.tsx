@@ -14,6 +14,48 @@ interface WorkItem {
 }
 
 const works: WorkItem[] = [
+    {
+        background: "bg-gray-200",
+        imageUrl: "/images/inter.PNG",
+        isVideo: false,
+        title: "InterPrep AI Interview prep WebApp",
+        link: "https://www.interprep.co.uk/",
+    },
+    {
+        background: "bg-gray-200",
+        imageUrl: "/images/frilio.PNG",
+        isVideo: false,
+        title: "Frilio AI Business Automation WebApp",
+        link: "https://frilio.ai/",
+    },
+    {
+        background: "bg-gray-200",
+        imageUrl: "/images/augy.PNG",
+        isVideo: false,
+        title: "Augy Beauty Limited Website",
+        link: "https://augybeautyhome.co.uk/",
+    },
+    {
+        background: "bg-gray-200",
+        imageUrl: "/images/pchau.webp",
+        isVideo: false,
+        title: "Perfect Chau Website",
+        link: "https://perfectchau.com.ng/",
+    },
+    // {
+    //     background: "bg-gray-200",
+    //     imageUrl: "/images/swann.png",
+    //     isVideo: false,
+    //     title: "Swann Plumbing and Heating Website",
+    //     link: "https://swann-plumbing.vercel.app/",
+    // },
+    // {
+    //     background: "bg-gray-200",
+    //     imageUrl: "/images/pchau.webp",
+    //     isVideo: false,
+    //     title: "Perfect Chau Website",
+    //     link: "https://perfectchau.com.ng/",
+    // },
   {
     background: "bg-gray-200",
     imageUrl: "/images/airpod.mp4",
@@ -28,34 +70,9 @@ const works: WorkItem[] = [
     title: "Tomford Ombre Leader Unveiling",
     link: "",
   },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/combine.jpeg",
-    isVideo: false,
-    title: "Event Promotional Designs",
-    link: "",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/dija.jpg",
-    isVideo: false,
-    title: "Brand Identity Design for DIJA COSMETICS",
-    link: "",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/swann.png",
-    isVideo: false,
-    title: "Swann Plumbing and Heating Website",
-    link: "https://swann-plumbing.vercel.app/",
-  },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/pchau.webp",
-    isVideo: false,
-    title: "Perfect Chau Website",
-    link: "https://perfectchau.com.ng/",
-  },
+
+
+
 ];
 
 export function BlurFadeDemo() {

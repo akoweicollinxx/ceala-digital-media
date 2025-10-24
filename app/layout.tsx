@@ -7,8 +7,8 @@ import Script from "next/script";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Software Developer in Luton | Web Design, Development & Marketing Studio in Luton",
-  description: "The best Design, Development and Marketing Agency in Luton, United Kingdom",
+  title: "Ceala Digital Limited | Web Design, Web Development, Automation & Marketing Studio in Luton",
+  description: "Ceala Digital is a Luton-based digital studio specializing in web design, web development, business automation, and digital marketing. We help brands grow, automate, and scale using modern technology.",
   openGraph: {
     images: [
       {

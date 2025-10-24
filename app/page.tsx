@@ -17,6 +17,8 @@ import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import ShowcaseNavbar from "@/components/showcase-navbar";
+import ElevenLabsAgent from "@/components/ElevenLabsAgent";
+import React from "react";
 
 
 const services = [
@@ -52,9 +54,9 @@ const services = [
   },
   {
     icon: "/images/s_2.png",
-    title: "Pay-Per-Click Advertising",
+    title: "Automation",
     description:
-      "Don't waste money on ineffective advertising. Our pay-per-click advertising, PPC, PPC management, PPC strategy, PPC consulting, PPC campaign setup services will help you reach your target audience",
+      "Our automation services — including workflow automation, business process automation, CRM automation, and AI-powered task automation — help you streamline operations, save time, and scale efficiently.",
   },
 ];
 
@@ -94,27 +96,26 @@ export default function Home() {
                   gap-x-4
                    "
           >
-            <Link
-              href="https://whatsform.com/0A2sXo"
-              className="py-3 
+              <Link
+                  href="/meeting"
+                  className="py-3
             px-10
+
             md:px-16
-
-
       md:text-xl
-      hover:bg-[#abcbff] 
+      hover:bg-[#abcbff]
       rounded-[6px]
-      border-4 
-      border-black 
-      dark:border-white 
-       bg-[#121212] 
-       text-white 
-       transition 
-       duration-200 
+      border-2
+      border-black
+      dark:border-white
+       bg-[#121212]
+       text-white
+       transition
+       duration-200
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
-            >
-              Get Free Website
-            </Link>
+              >
+                  Book a Call
+              </Link>
             <Link
               href={"/showcase"}
               className="
@@ -154,7 +155,7 @@ export default function Home() {
             <BoxReveal boxColor={"#3b82f6"} duration={0.5}>
               <p className="md:text-xl font-semibold flex gap-x-2 md:gap-x-4 items-center">
                 <PiCheckBold className="text-xl text-blue-500" />
-                Strategy
+                Automation
               </p>
             </BoxReveal>
           </div>
@@ -168,7 +169,7 @@ export default function Home() {
               <div className="flex my-6 gap-x-5 w-full">
                 <div>
                   <h1 className="text-blue-500 text-3xl md:text-5xl">
-                    <NumberTicker value={1160} /> +
+                    <NumberTicker value={500} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Happy Clients
                     </p>
@@ -179,7 +180,7 @@ export default function Home() {
 
                 <div className="flex-1 min-w-0">
                   <h1 className="text-blue-500 text-3xl md:text-5xl whitespace-nowrap overflow-hidden">
-                    <NumberTicker value={170} /> +
+                    <NumberTicker value={150} /> +
                     <p className="text-gray-500 text-sm md:text-md">
                       Projects Completed
                     </p>
@@ -230,7 +231,7 @@ export default function Home() {
           <WordPullUpDemo />
         </h1>
         <p className="md:text-center py-4 md:w-1/2 mx-auto text-xl md:text-2xl text-gray-500">
-        We are the best Graphics design, Digital Marketing and Web Development Agency in Luton, United Kingdom. We design virtually appealing contents to promote businesses of all kinds, we build and manage fully functional and responsive web applications for small and large businesses. We run Google, Meta and TikTok Ads to boost sales and get leads for Businesses of all kind.
+            At Ceala Digital, we create visually stunning content that helps businesses of all kinds stand out and grow. We build and manage fully functional, responsive web applications for both small and large enterprises. We build and optimize several Automation features using cutting edge Technology. Our team also runs high-performing Google, Meta, and TikTok ad campaigns to boost sales, increase visibility, and generate quality leads for your business.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-10">
@@ -306,7 +307,7 @@ export default function Home() {
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
-            src={"/logo/logo.webp"}
+            src={"/logo/logo.PNG"}
             width={10000}
             height={10000}
             className=" md:w-1/3 rounded-md"
@@ -314,7 +315,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;Working with this team has been a game-changer for my business! Their graphics design work is absolutely stunning and truly elevated my brand image. Thanks to their digital marketing expertise, my sales have doubled in just a few months! Highly recommended. &quot;
+              These guys are simply amazing, from consultation to delivery of the final project was totally stress free and worth every penny paid.
             </h1>
             <div className="flex items-center gap-x-1">
               <IconStarFilled className="text-4xl text-yellow-500" />
@@ -325,8 +326,7 @@ export default function Home() {
             </div>
 
             <span className="text-xl font-medium">
-              Tina, Reed <br />
-              Manager, Dija Cosmetics
+                Hamed Audu
             </span>
           </div>
         </main>
@@ -344,7 +344,7 @@ export default function Home() {
         <div className="flex flex-col  justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
           <h1 className="text-3xl md:text-5xl font-medium ">
             <Image
-              src={"/logo/logo.webp"}
+              src={"/logo/logo.PNG"}
               width={10000}
               height={10000}
               className="w-40"
@@ -358,11 +358,12 @@ export default function Home() {
         </div>
 
         <div className="flex md:justify-center gap-x-4 mt-10">
-          © 2025 Ceala Digital Media. All Rights Reserved.
+          © 2025 Ceala Digital Limited. All Rights Reserved.
           <Link href="/" className="text-blue-500">
             Privacy Policy
           </Link>
         </div>
+          <ElevenLabsAgent/>
       </footer>
     </div>
   );
