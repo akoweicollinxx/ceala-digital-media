@@ -84,8 +84,7 @@ export default function Home() {
             className="md:text-center
            text-xl md:text-2xl my-6 md:my-10 md:w-4/5 mx-auto text-gray-500"
           >
-            Schedule a call with us to discuss your project and get a quote in
-            minutes
+            We offer a powerful suite of solutions to help businesses grow, streamline operations, and stand out in competitive markets.
           </p>
 
           <div
