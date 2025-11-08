@@ -18,14 +18,14 @@ const works: WorkItem[] = [
         background: "bg-gray-200",
         imageUrl: "/images/inter.png",
         isVideo: false,
-        title: "InterPrep AI Interview prep WebApp",
+        title: "AI Interview prep WebApp",
         link: "https://www.interprep.co.uk/",
     },
     {
         background: "bg-gray-200",
         imageUrl: "/images/frilio.png",
         isVideo: false,
-        title: "Frilio AI Business Automation WebApp",
+        title: "Frilio AI Automation WebApp",
         link: "https://frilio.ai/",
     },
     {
