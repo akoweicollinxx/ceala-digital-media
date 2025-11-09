@@ -96,7 +96,7 @@ export default function Home() {
                    "
           >
               <Link
-                  href="/meeting"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdtCjbEaFwNB_G8DEtUkL8MU1GXHdrfabFGVcpAr6VlqNhr-g/viewform?usp=header"
                   className="py-3
             px-10
 
@@ -112,7 +112,7 @@ export default function Home() {
        transition
        duration-200
        hover:shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] "
-              >Book a Call
+              >Get a Quote
               </Link>
             <Link
               href={"/showcase"}
